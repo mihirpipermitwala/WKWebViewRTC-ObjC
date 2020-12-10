@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A3998639E437B4C46D20F7C12B80844 /* Pods-WKWebViewRTC-ObjC_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7F525EBF6606EA416F01B274A6907FA /* Pods-WKWebViewRTC-ObjC_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CAC3615EF41F73AE29F3295F40031ED /* WKWebViewRTC-ObjC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 450A29B0682ECF026F6DFEAAB3267E9E /* WKWebViewRTC-ObjC-dummy.m */; };
+		683994218306E5D87B288E1191725B52 /* Pods-WKWebViewRTC-ObjC_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA65375B1A5A799B401254D4271BD261 /* Pods-WKWebViewRTC-ObjC_Example-dummy.m */; };
+		8971A5E79EB395642B1FC4EAE930DDC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8B0C8A89DB84642F8EC00837A7C67711 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9214FDA177C0FB9E8998C9C08703FE09 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9623D8445287C33F8653D84ED38C7A /* ReplaceMe.m */; };
+		9FDA2505FE935CF39093EEC3492DA3A2 /* WKWebViewRTC-ObjC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D29BD487748BAC895B19AD822777A6B0 /* WKWebViewRTC-ObjC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD37ADA5990CC591DE1B7021576031CA /* Pods-WKWebViewRTC-ObjC_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D51688DC4C41AF5AA619835FFE13E74 /* Pods-WKWebViewRTC-ObjC_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F49D66E89C965B5BA5CC4EFB4E33A804 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FFF0B18FC05E7E69094F9F6A4F3113DC /* Pods-WKWebViewRTC-ObjC_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BA1E4E42E766F0DCF6EF7E15E37649 /* Pods-WKWebViewRTC-ObjC_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3A6A087676E56B0D96E7749CF8AD089 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07FD5701E13CC3DB3CB9594B27CA5355;
+			remoteInfo = "WKWebViewRTC-ObjC";
+		};
+		F17D3313D7405EC4FDDE7B93B9A62A67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 474B57600C5E332C9BD110B0C2516B14;
+			remoteInfo = "Pods-WKWebViewRTC-ObjC_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02A3545EEFE1701225283C0988319BA7 /* Pods-WKWebViewRTC-ObjC_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WKWebViewRTC-ObjC_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0A5F0D587EBE07F96B3EF1C916AD8BEE /* WKWebViewRTC-ObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "WKWebViewRTC-ObjC.release.xcconfig"; sourceTree = "<group>"; };
+		1FEED749D0F9C001151525F2D58AB4C4 /* Pods-WKWebViewRTC-ObjC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WKWebViewRTC-ObjC_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2C0E12098AA02B186ABC14C6429C2577 /* WKWebViewRTC-ObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "WKWebViewRTC-ObjC.debug.xcconfig"; sourceTree = "<group>"; };
+		38BA1E4E42E766F0DCF6EF7E15E37649 /* Pods-WKWebViewRTC-ObjC_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WKWebViewRTC-ObjC_Tests-dummy.m"; sourceTree = "<group>"; };
+		3BB06F1F2DA4A034919565967FDC1D84 /* WKWebViewRTC-ObjC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "WKWebViewRTC-ObjC.modulemap"; sourceTree = "<group>"; };
+		450A29B0682ECF026F6DFEAAB3267E9E /* WKWebViewRTC-ObjC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WKWebViewRTC-ObjC-dummy.m"; sourceTree = "<group>"; };
+		4E9623D8445287C33F8653D84ED38C7A /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = "WKWebViewRTC-ObjC/Classes/ReplaceMe.m"; sourceTree = "<group>"; };
+		59B14EA8667B4B3B240DC7C17B6AD753 /* Pods_WKWebViewRTC_ObjC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WKWebViewRTC_ObjC_Tests.framework; path = "Pods-WKWebViewRTC-ObjC_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F45C775A60CEE4FCBB0B57B679E1986 /* WKWebViewRTC-ObjC.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "WKWebViewRTC-ObjC.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6F4F630EF053BB088FE05D50BD1A380D /* Pods-WKWebViewRTC-ObjC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WKWebViewRTC-ObjC_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7150A78548802C2C74C523EA6BF36B3F /* Pods-WKWebViewRTC-ObjC_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WKWebViewRTC-ObjC_Example-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7A7541C1E1F3D07FEAA1C57170D34F89 /* Pods-WKWebViewRTC-ObjC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WKWebViewRTC-ObjC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		87BF76232FC35EE9641E26DEE6D987AA /* Pods-WKWebViewRTC-ObjC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WKWebViewRTC-ObjC_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8AB5696F28EDA7E47A446B67D600FFE8 /* WKWebViewRTC-ObjC-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WKWebViewRTC-ObjC-Info.plist"; sourceTree = "<group>"; };
+		98709EEC79943607E40D219CE0E65610 /* Pods-WKWebViewRTC-ObjC_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WKWebViewRTC-ObjC_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D51688DC4C41AF5AA619835FFE13E74 /* Pods-WKWebViewRTC-ObjC_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WKWebViewRTC-ObjC_Example-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E91BA02F2DA1F97614B1E025E1C0E0E /* WKWebViewRTC-ObjC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WKWebViewRTC-ObjC-prefix.pch"; sourceTree = "<group>"; };
+		9FC3CBA6797025CB96639D5100EBB65B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B7D2EECE3D0952BA093A20E4CE051AC1 /* Pods-WKWebViewRTC-ObjC_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WKWebViewRTC-ObjC_Tests-Info.plist"; sourceTree = "<group>"; };
+		C7F525EBF6606EA416F01B274A6907FA /* Pods-WKWebViewRTC-ObjC_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WKWebViewRTC-ObjC_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CC0D10603BC56F4CF74032A2ED492B43 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CD92FEDF652298F72AC0811B9966612F /* Pods-WKWebViewRTC-ObjC_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WKWebViewRTC-ObjC_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D06919F0E08DEF94CA618B69547F3B5E /* Pods-WKWebViewRTC-ObjC_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WKWebViewRTC-ObjC_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D29BD487748BAC895B19AD822777A6B0 /* WKWebViewRTC-ObjC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WKWebViewRTC-ObjC-umbrella.h"; sourceTree = "<group>"; };
+		E2FDE1A2BE390259AE64537A0CB3D938 /* Pods-WKWebViewRTC-ObjC_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WKWebViewRTC-ObjC_Example.modulemap"; sourceTree = "<group>"; };
+		E667A69AE2020C7EA3032EC7EBCD71B8 /* Pods-WKWebViewRTC-ObjC_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WKWebViewRTC-ObjC_Tests.modulemap"; sourceTree = "<group>"; };
+		EBDEB412C07C20F12E7C2B4BDED35D09 /* Pods_WKWebViewRTC_ObjC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WKWebViewRTC_ObjC_Example.framework; path = "Pods-WKWebViewRTC-ObjC_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBFFA5C780A2F5F3A03971C7C1243B7A /* WKWebViewRTC_ObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WKWebViewRTC_ObjC.framework; path = "WKWebViewRTC-ObjC.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0A950D8AC691D1DC8C3FCBA8E1CA6AB /* Pods-WKWebViewRTC-ObjC_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WKWebViewRTC-ObjC_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FA65375B1A5A799B401254D4271BD261 /* Pods-WKWebViewRTC-ObjC_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WKWebViewRTC-ObjC_Example-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B1B3784A41F96913DB5CFA3C8046116 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B0C8A89DB84642F8EC00837A7C67711 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA57B0EF08ED4DECA596C249428A992C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8971A5E79EB395642B1FC4EAE930DDC4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7DC8E4508859A5CC2EB17D4D8BBDB5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49D66E89C965B5BA5CC4EFB4E33A804 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		461812ABB7618211B2BD58268F3C22B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBDEB412C07C20F12E7C2B4BDED35D09 /* Pods_WKWebViewRTC_ObjC_Example.framework */,
+				59B14EA8667B4B3B240DC7C17B6AD753 /* Pods_WKWebViewRTC_ObjC_Tests.framework */,
+				EBFFA5C780A2F5F3A03971C7C1243B7A /* WKWebViewRTC_ObjC.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		486B5520C4931583E03F7995CCEAD876 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F45A2F515359C5F63BB347428CA812B0 /* WKWebViewRTC-ObjC */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		519939B175F83B6EA9AE828D78F135F8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CC0D10603BC56F4CF74032A2ED492B43 /* LICENSE */,
+				9FC3CBA6797025CB96639D5100EBB65B /* README.md */,
+				5F45C775A60CEE4FCBB0B57B679E1986 /* WKWebViewRTC-ObjC.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		69E1CF77D117D679B6DFAAF64612B5C7 /* Pods-WKWebViewRTC-ObjC_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E667A69AE2020C7EA3032EC7EBCD71B8 /* Pods-WKWebViewRTC-ObjC_Tests.modulemap */,
+				98709EEC79943607E40D219CE0E65610 /* Pods-WKWebViewRTC-ObjC_Tests-acknowledgements.markdown */,
+				02A3545EEFE1701225283C0988319BA7 /* Pods-WKWebViewRTC-ObjC_Tests-acknowledgements.plist */,
+				38BA1E4E42E766F0DCF6EF7E15E37649 /* Pods-WKWebViewRTC-ObjC_Tests-dummy.m */,
+				B7D2EECE3D0952BA093A20E4CE051AC1 /* Pods-WKWebViewRTC-ObjC_Tests-Info.plist */,
+				C7F525EBF6606EA416F01B274A6907FA /* Pods-WKWebViewRTC-ObjC_Tests-umbrella.h */,
+				7A7541C1E1F3D07FEAA1C57170D34F89 /* Pods-WKWebViewRTC-ObjC_Tests.debug.xcconfig */,
+				1FEED749D0F9C001151525F2D58AB4C4 /* Pods-WKWebViewRTC-ObjC_Tests.release.xcconfig */,
+			);
+			name = "Pods-WKWebViewRTC-ObjC_Tests";
+			path = "Target Support Files/Pods-WKWebViewRTC-ObjC_Tests";
+			sourceTree = "<group>";
+		};
+		8E837B49FE39CCC00D3FC1924C2260E3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C13C923E9F97A31D464638623B3A74C4 /* Pods-WKWebViewRTC-ObjC_Example */,
+				69E1CF77D117D679B6DFAAF64612B5C7 /* Pods-WKWebViewRTC-ObjC_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A63B2EE72E5430A526CBDBDDD399ED9A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BB06F1F2DA4A034919565967FDC1D84 /* WKWebViewRTC-ObjC.modulemap */,
+				450A29B0682ECF026F6DFEAAB3267E9E /* WKWebViewRTC-ObjC-dummy.m */,
+				8AB5696F28EDA7E47A446B67D600FFE8 /* WKWebViewRTC-ObjC-Info.plist */,
+				9E91BA02F2DA1F97614B1E025E1C0E0E /* WKWebViewRTC-ObjC-prefix.pch */,
+				D29BD487748BAC895B19AD822777A6B0 /* WKWebViewRTC-ObjC-umbrella.h */,
+				2C0E12098AA02B186ABC14C6429C2577 /* WKWebViewRTC-ObjC.debug.xcconfig */,
+				0A5F0D587EBE07F96B3EF1C916AD8BEE /* WKWebViewRTC-ObjC.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WKWebViewRTC-ObjC";
+			sourceTree = "<group>";
+		};
+		C13C923E9F97A31D464638623B3A74C4 /* Pods-WKWebViewRTC-ObjC_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E2FDE1A2BE390259AE64537A0CB3D938 /* Pods-WKWebViewRTC-ObjC_Example.modulemap */,
+				CD92FEDF652298F72AC0811B9966612F /* Pods-WKWebViewRTC-ObjC_Example-acknowledgements.markdown */,
+				F0A950D8AC691D1DC8C3FCBA8E1CA6AB /* Pods-WKWebViewRTC-ObjC_Example-acknowledgements.plist */,
+				FA65375B1A5A799B401254D4271BD261 /* Pods-WKWebViewRTC-ObjC_Example-dummy.m */,
+				D06919F0E08DEF94CA618B69547F3B5E /* Pods-WKWebViewRTC-ObjC_Example-frameworks.sh */,
+				7150A78548802C2C74C523EA6BF36B3F /* Pods-WKWebViewRTC-ObjC_Example-Info.plist */,
+				9D51688DC4C41AF5AA619835FFE13E74 /* Pods-WKWebViewRTC-ObjC_Example-umbrella.h */,
+				6F4F630EF053BB088FE05D50BD1A380D /* Pods-WKWebViewRTC-ObjC_Example.debug.xcconfig */,
+				87BF76232FC35EE9641E26DEE6D987AA /* Pods-WKWebViewRTC-ObjC_Example.release.xcconfig */,
+			);
+			name = "Pods-WKWebViewRTC-ObjC_Example";
+			path = "Target Support Files/Pods-WKWebViewRTC-ObjC_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				486B5520C4931583E03F7995CCEAD876 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				461812ABB7618211B2BD58268F3C22B9 /* Products */,
+				8E837B49FE39CCC00D3FC1924C2260E3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F45A2F515359C5F63BB347428CA812B0 /* WKWebViewRTC-ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				4E9623D8445287C33F8653D84ED38C7A /* ReplaceMe.m */,
+				519939B175F83B6EA9AE828D78F135F8 /* Pod */,
+				A63B2EE72E5430A526CBDBDDD399ED9A /* Support Files */,
+			);
+			name = "WKWebViewRTC-ObjC";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		43BAD85DB789684F22FFD773DCC9F0E1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A3998639E437B4C46D20F7C12B80844 /* Pods-WKWebViewRTC-ObjC_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60C6AE8F860C3342208364447140845 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD37ADA5990CC591DE1B7021576031CA /* Pods-WKWebViewRTC-ObjC_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8B9612B94F1A689168D225F506BE644 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FDA2505FE935CF39093EEC3492DA3A2 /* WKWebViewRTC-ObjC-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		07FD5701E13CC3DB3CB9594B27CA5355 /* WKWebViewRTC-ObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 070B7798E754FDD2A83BCD4B0D54F6CA /* Build configuration list for PBXNativeTarget "WKWebViewRTC-ObjC" */;
+			buildPhases = (
+				B8B9612B94F1A689168D225F506BE644 /* Headers */,
+				86BA700C4CFA9BC984CFE02C1D537597 /* Sources */,
+				E7DC8E4508859A5CC2EB17D4D8BBDB5F /* Frameworks */,
+				C13C5F6E140C23E2906C9F8F2BD6AD41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WKWebViewRTC-ObjC";
+			productName = "WKWebViewRTC-ObjC";
+			productReference = EBFFA5C780A2F5F3A03971C7C1243B7A /* WKWebViewRTC_ObjC.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		474B57600C5E332C9BD110B0C2516B14 /* Pods-WKWebViewRTC-ObjC_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4F62299C244413E2775A34133F2DDA3 /* Build configuration list for PBXNativeTarget "Pods-WKWebViewRTC-ObjC_Example" */;
+			buildPhases = (
+				A60C6AE8F860C3342208364447140845 /* Headers */,
+				7D863B3E71EC964ED5B2EF2C514D4D4E /* Sources */,
+				DA57B0EF08ED4DECA596C249428A992C /* Frameworks */,
+				6291E3551E0903193A54708C7A8F21BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DF08F3B263A47E01D8420AFEFEF5BEB /* PBXTargetDependency */,
+			);
+			name = "Pods-WKWebViewRTC-ObjC_Example";
+			productName = "Pods-WKWebViewRTC-ObjC_Example";
+			productReference = EBDEB412C07C20F12E7C2B4BDED35D09 /* Pods_WKWebViewRTC_ObjC_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8C54756E14F487AF9EFEBEE9C1AFF9DC /* Pods-WKWebViewRTC-ObjC_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F6FAD7526FF9B28514AD0C4A0988BEA /* Build configuration list for PBXNativeTarget "Pods-WKWebViewRTC-ObjC_Tests" */;
+			buildPhases = (
+				43BAD85DB789684F22FFD773DCC9F0E1 /* Headers */,
+				BB59D954A1480ACF737EAA875B4A76E1 /* Sources */,
+				5B1B3784A41F96913DB5CFA3C8046116 /* Frameworks */,
+				BC05C3925F1B11CCFAD2237BCCC97886 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FCA76A26FFE3FBCAAEB10206CEBDDCB /* PBXTargetDependency */,
+			);
+			name = "Pods-WKWebViewRTC-ObjC_Tests";
+			productName = "Pods-WKWebViewRTC-ObjC_Tests";
+			productReference = 59B14EA8667B4B3B240DC7C17B6AD753 /* Pods_WKWebViewRTC_ObjC_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 461812ABB7618211B2BD58268F3C22B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				474B57600C5E332C9BD110B0C2516B14 /* Pods-WKWebViewRTC-ObjC_Example */,
+				8C54756E14F487AF9EFEBEE9C1AFF9DC /* Pods-WKWebViewRTC-ObjC_Tests */,
+				07FD5701E13CC3DB3CB9594B27CA5355 /* WKWebViewRTC-ObjC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6291E3551E0903193A54708C7A8F21BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC05C3925F1B11CCFAD2237BCCC97886 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C13C5F6E140C23E2906C9F8F2BD6AD41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D863B3E71EC964ED5B2EF2C514D4D4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				683994218306E5D87B288E1191725B52 /* Pods-WKWebViewRTC-ObjC_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86BA700C4CFA9BC984CFE02C1D537597 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9214FDA177C0FB9E8998C9C08703FE09 /* ReplaceMe.m in Sources */,
+				3CAC3615EF41F73AE29F3295F40031ED /* WKWebViewRTC-ObjC-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB59D954A1480ACF737EAA875B4A76E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF0B18FC05E7E69094F9F6A4F3113DC /* Pods-WKWebViewRTC-ObjC_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0FCA76A26FFE3FBCAAEB10206CEBDDCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WKWebViewRTC-ObjC_Example";
+			target = 474B57600C5E332C9BD110B0C2516B14 /* Pods-WKWebViewRTC-ObjC_Example */;
+			targetProxy = F17D3313D7405EC4FDDE7B93B9A62A67 /* PBXContainerItemProxy */;
+		};
+		5DF08F3B263A47E01D8420AFEFEF5BEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "WKWebViewRTC-ObjC";
+			target = 07FD5701E13CC3DB3CB9594B27CA5355 /* WKWebViewRTC-ObjC */;
+			targetProxy = D3A6A087676E56B0D96E7749CF8AD089 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2B91EC9DBC289627B55873E642F1A4E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FEED749D0F9C001151525F2D58AB4C4 /* Pods-WKWebViewRTC-ObjC_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WKWebViewRTC-ObjC_Tests/Pods-WKWebViewRTC-ObjC_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WKWebViewRTC-ObjC_Tests/Pods-WKWebViewRTC-ObjC_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3EABC3F10BABF2FB39BF9D7244F5E1A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87BF76232FC35EE9641E26DEE6D987AA /* Pods-WKWebViewRTC-ObjC_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WKWebViewRTC-ObjC_Example/Pods-WKWebViewRTC-ObjC_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WKWebViewRTC-ObjC_Example/Pods-WKWebViewRTC-ObjC_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7FB748EE5602669873ABA216860C9359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A5F0D587EBE07F96B3EF1C916AD8BEE /* WKWebViewRTC-ObjC.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WKWebViewRTC-ObjC/WKWebViewRTC-ObjC-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WKWebViewRTC-ObjC/WKWebViewRTC-ObjC-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WKWebViewRTC-ObjC/WKWebViewRTC-ObjC.modulemap";
+				PRODUCT_MODULE_NAME = WKWebViewRTC_ObjC;
+				PRODUCT_NAME = WKWebViewRTC_ObjC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8D91065C406A14031F754C95640F55B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C0E12098AA02B186ABC14C6429C2577 /* WKWebViewRTC-ObjC.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WKWebViewRTC-ObjC/WKWebViewRTC-ObjC-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WKWebViewRTC-ObjC/WKWebViewRTC-ObjC-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WKWebViewRTC-ObjC/WKWebViewRTC-ObjC.modulemap";
+				PRODUCT_MODULE_NAME = WKWebViewRTC_ObjC;
+				PRODUCT_NAME = WKWebViewRTC_ObjC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AE49E9CE76CAD58FFE4509564557FA2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A7541C1E1F3D07FEAA1C57170D34F89 /* Pods-WKWebViewRTC-ObjC_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WKWebViewRTC-ObjC_Tests/Pods-WKWebViewRTC-ObjC_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WKWebViewRTC-ObjC_Tests/Pods-WKWebViewRTC-ObjC_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B42A72155B2D4D309DD7E5DD9F558E17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F4F630EF053BB088FE05D50BD1A380D /* Pods-WKWebViewRTC-ObjC_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WKWebViewRTC-ObjC_Example/Pods-WKWebViewRTC-ObjC_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WKWebViewRTC-ObjC_Example/Pods-WKWebViewRTC-ObjC_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		070B7798E754FDD2A83BCD4B0D54F6CA /* Build configuration list for PBXNativeTarget "WKWebViewRTC-ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D91065C406A14031F754C95640F55B5 /* Debug */,
+				7FB748EE5602669873ABA216860C9359 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F6FAD7526FF9B28514AD0C4A0988BEA /* Build configuration list for PBXNativeTarget "Pods-WKWebViewRTC-ObjC_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE49E9CE76CAD58FFE4509564557FA2C /* Debug */,
+				2B91EC9DBC289627B55873E642F1A4E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4F62299C244413E2775A34133F2DDA3 /* Build configuration list for PBXNativeTarget "Pods-WKWebViewRTC-ObjC_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B42A72155B2D4D309DD7E5DD9F558E17 /* Debug */,
+				3EABC3F10BABF2FB39BF9D7244F5E1A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

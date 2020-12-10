@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'WKWebViewRTC-ObjC_Example' do
+  pod 'WKWebViewRTC-ObjC', :path => '../'
+
+  target 'WKWebViewRTC-ObjC_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

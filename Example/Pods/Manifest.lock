@@ -1,0 +1,16 @@
+PODS:
+  - WKWebViewRTC-ObjC (0.1.0)
+
+DEPENDENCIES:
+  - WKWebViewRTC-ObjC (from `../`)
+
+EXTERNAL SOURCES:
+  WKWebViewRTC-ObjC:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WKWebViewRTC-ObjC: af01b0dcd2f67e20dd7079e9bd09431cf7f535ad
+
+PODFILE CHECKSUM: 91ce042130548562aac253457dc52fccb16c8874
+
+COCOAPODS: 1.10.0
